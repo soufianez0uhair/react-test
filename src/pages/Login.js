@@ -47,7 +47,7 @@ const Login = () => {
             <form onSubmit={(e) => handleSubmit(e)} className="login__form">
                 <h1 className="login__title">Login</h1>
                 <label htmlFor="email">email</label>
-                <input type="email" name="email" id="email" placeholder="email@example.com" value={user.email} onChange={(e) => handleChange(e)} className="login__input" />
+                <input type="text" name="email" id="email" style={{border: user.email && (validator.isEmail(user.email) ? '.1rem solid green' : '.1rem solid red' )}} placeholder="email@example.com" value={user.email} onChange={(e) => handleChange(e)} className="login__input" />
                 <label htmlFor="password">password</label>
                 <input type="password" name="password" id="password" placeholder="password" value={user.password} onChange={(e) => handleChange(e)} className="login__input" />
                 <button className="btn btn--login">Login</button>

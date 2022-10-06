@@ -1,0 +1,14 @@
+# Questions to answer
+
+<h5>1: what is the difference between Functional components and Class components</h5>
+a component in general is a piece of code that serves a specific purpose in terms of functionality and visual aspect and if merged with other components we can build the whole app. A functional component is a function that accepts variables(props) and defines that component by returning JSX-format code. A class component is a feature that we often use in ES6 based on object oriented programming principles to define a react component and renturning by using the render method.
+<h5>2: rools of hooks</h5>
+We can use hooks only in a function that defines a react component, and before any returning statement.
+<h5>3: how useEffect work ? </h5>
+It allows a piece of code to run only if the dependecy array values has been changed, it prevents component re-rendering to fire these instructions and falling into an infinite loop.
+<h5>4: why state and not common variable ? </h5>
+It's one of react main pros, as it gives the privelege for a real-time assigned and displayed data check as it gets updated.
+<h5>5: what is props ? </h5>
+the variable that a functional react component accepts and that we assign properties and value to it under the governance of a parent-child relation and it's unidirectional(parent-> child).
+<h5>6: what is props ? </h5>
+

@@ -93,3 +93,6 @@ body {
   .login label {
     font-size: 1.5rem;
     font-weight: 300; }
+  .login__error {
+    color: red;
+    font-size: 1.2rem; }
